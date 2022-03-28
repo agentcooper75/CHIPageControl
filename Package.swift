@@ -16,5 +16,8 @@ let package = Package(
     ],
     targets: [
         .target(name: "CHIPageControl", path: "CHIPageControl")
+    ],
+    exclude: [
+        "Info.plist"
     ]
 )
